@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+body {
+    color: #fff;
+    background: linear-gradient(90deg, #020024 0%, rgba(125,170,184,1) 69%, rgba(0,212,255,1) 100%);
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 300% 300%;
+    background-image: linear-gradient(90deg, #020024 0%, rgba(125,170,184,1) 69%, rgba(0,212,255,1) 100%);
+    -webkit-animation: AnimateBG 20s ease infinite;
+            animation: AnimateBG 20s ease infinite;
+    }
+
+    @-webkit-keyframes AnimateBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+    }
+
+    @keyframes AnimateBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.conteiner {
+    font-size: 30px;
+}
+
+.main__vizit {
+    font-size: 54px;
+    font-weight: 900;
+}
+
+.main__txt{
+    padding-top: 0.5%;
+}
+
+
+
+.main__btn{
+  display: inline-block;
+  background: #2196f3;
+  color: #fff;
+  padding: 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size:28px;
+  line-height: 1;
+  font-weight: 100;
+}
+div {
+  margin: 24px;
+  text-align: center;
+}
+
+
+
+.btn {
+    display: inline-block;
+    background: #2196f3;
+    color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size:28px;
+    font-weight: 100;
+}
+.active,
+.btn:hover {
+    background-color: #8eb8eb;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-size: 20px;
+}
+
+
+.btn__lab {
+    display: inline-block;
+    background: hwb(196 0% 0%);
+    color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size:28px;
+    font-weight: 100;
+}
+
+.text_visit {
+    font-size: 30px;
+}
+
+
+.cart {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border-style: dotted;
+
+}
+
+
